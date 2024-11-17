@@ -1,0 +1,45 @@
+----------------<>------------------<>-------------------
+
+<|>  𝐇𝐞𝐥𝐥𝐨 𝐖𝐨𝐫𝐥𝐝 𝐏𝐫𝐨𝐠𝐫𝐚𝐦  <|>
+       If you want to show something as output , use the Print function 
+
+     ᴘʏᴛʜᴏɴ ᴄᴏᴅᴇ >>
+                 print("Hello World")
+                     Output -- Hello World
+
+                    #It is single line of code "Hello World".
+
+----------------<>------------------<>-------------------
+
+<|>  𝐂𝐨𝐦𝐦𝐞𝐧𝐭𝐬 𝐢𝐧 𝐏𝐲𝐭𝐡𝐨𝐧  <|>
+         You can comment in python code Using #Hashtag.
+
+                It enhance the readability and maintainability of code. If # include before code , They are ignored by the Python interpreter during execution.
+
+    ᴘʏᴛʜᴏɴ ᴄᴏᴅᴇ >> 
+                   a = 10      # int variable
+
+                   b = 20      # int variable
+
+                   Name = "Nikunj Sahani"   #String variable
+
+                      print(a)
+                      print(b)
+                      print(Name)
+
+                        Output --- 10
+                                   20
+                                   Nikunj Sahani
+
+----------------<>------------------<>-------------------
+
+
+
+
+
+
+
+
+
+
+
