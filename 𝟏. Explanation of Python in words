@@ -1,0 +1,93 @@
+
+-----------------<>-------------------------<>--------------------
+
+<|> 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐏𝐲𝐭𝐡𝐨𝐧 ?
+      Python is an easy to understand , general purpose  and high level programming language. It design philosophy to emphasises code readability.
+      It was developed by " 𝙂𝙪𝙞𝙙𝙤 𝙫𝙖𝙣 𝙍𝙤𝙨𝙨𝙪𝙢 " in 1991.
+
+    Python is popular language because It is known for its simplicity , readability , and ease to use. It is an execellent choice for beginners as well as experienced programmers.
+
+<|> 𝐀𝐝𝐯𝐚𝐧𝐭𝐚𝐠𝐞 𝐨𝐟 𝐏𝐲𝐭𝐡𝐨𝐧 
+ Python is versatile and widely used in every technical field.
+
+   > Easy to Code
+   > Improve productivity
+   > Vast library Support
+   > A lot of career options for you
+   > Used almost everywhere
+
+      >> Interpreted Language --> Code is executed line by line without converting into object code.
+
+      >> Platform independence --> It work on diffferent platform like windows , macOS , raspberry PI , etc.
+
+      >> Free --> Python is free that anyone can use it by his own learning.
+
+      >> Less code, more efficient --> Python syntax permit programmers to write code in less lines & create its interpretation faster.
+
+<|> 𝐔𝐬𝐞 𝐨𝐟 𝐏𝐲𝐭𝐡𝐨𝐧 
+
+   > Web development
+   > AI and Machine learning
+   > Game development
+   > Data science
+   > Software development & many more
+
+-----------------<>-------------------------<>--------------------
+
+| <>  ᗰOᗪᑌᒪE Oᖴ ᑭYTᕼOᑎ  <> |
+
+      > Installations
+      > Python fundamentals           
+      > Print function
+      > Operations and Expresions     
+      > Control Flow
+      > Loops        > Strings      > Lists  
+      > Tuples    > Dictionaries    > Sets
+      > Python functions    > OOPs
+      > File Handling
+      > Errors & Exception Handling
+
+-----------------<>---------------------<>--------------------<>-------------------<>------------------
+
+<|> 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧s <|>
+
+     Setting up a software environment for Python programming.
+
+     1. Anaconda      -- Server based tool
+     2. VS Code       -- Software 
+     3. Google collab -- Cloud based
+
+  These tools are easy to use and best to code apart from others.
+
+   1. 𝑨𝒏𝒂𝒄𝒐𝒏𝒅𝒂
+       Link - https://www.anaconda.com/download/success
+               Steps -
+                 Complete installation --> open Anaconda  --> Get the Jupyter & Launch it --> Got the interface to Code.
+
+   2. 𝑽𝒊𝒓𝒕𝒖𝒂𝒍 𝑺𝒕𝒖𝒅𝒊𝒐 𝑪𝒐𝒅𝒆
+       Link - https://code.visualstudio.com/download 
+
+   3. 𝑮𝒐𝒐𝒈𝒍𝒆 𝒄𝒐𝒍𝒍𝒂𝒃
+       Link - https://colab.research.google.com/ 
+                Steps - 
+                  Open collab --> click on file --> New notebook in drive  --> Code Interface --> Write code & Runtime.
+
+-----------------<>-------------------------<>--------------------
+
+<|> 𝐏𝐲𝐭𝐡𝐨𝐧 𝐟𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐬  <|>
+
+     >> Python 2 --> Python version 2 release in 2000.   It used to print the statement by print function.
+                     for exmple --
+                 print "Hello World"   ,,This code is print in python v.2.
+
+     >> Python 3 -->Python version 3 release in 2008.  It used to print the statement by print() function.
+                     for exmple --
+                 print ("Hello World")   ,,This code is print in python v.3.
+
+-----------------<>-------------------------<>--------------------
+
+
+
+
+
+
