@@ -9,7 +9,7 @@
 
        Example --
 
-  ᴘʏᴛʜᴏɴ ᴄᴏᴅᴇ >>  x = 10
+  𝙋𝙮𝙩𝙝𝙤𝙣 𝙘𝙤𝙙𝙚 >>  x = 10
                        #  X is a " Variable "  (Using hastag is a comment for the code)
                        # 10 is a " Object "
                   print(x)
