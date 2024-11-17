@@ -3,7 +3,7 @@
 <|>  𝐇𝐞𝐥𝐥𝐨 𝐖𝐨𝐫𝐥𝐝 𝐏𝐫𝐨𝐠𝐫𝐚𝐦  <|>
        If you want to show something as output , use the Print function 
 
-     ᴘʏᴛʜᴏɴ ᴄᴏᴅᴇ >>
+     𝙋𝙮𝙩𝙝𝙤𝙣 𝙘𝙤𝙙𝙚 >>
                  print("Hello World")
                      Output -- Hello World
 
@@ -16,7 +16,7 @@
 
                 It enhance the readability and maintainability of code. If # include before code , They are ignored by the Python interpreter during execution.
 
-    ᴘʏᴛʜᴏɴ ᴄᴏᴅᴇ >> 
+    𝙋𝙮𝙩𝙝𝙤𝙣 𝙘𝙤𝙙𝙚 >> 
                    a = 10      # int variable
 
                    b = 20      # int variable
