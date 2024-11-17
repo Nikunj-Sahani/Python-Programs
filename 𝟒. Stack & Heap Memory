@@ -1,0 +1,37 @@
+
+-----------------<>----------------------------------<>------------------------
+
+<|>  𝐒𝐭𝐚𝐜𝐤 𝐌𝐞𝐦𝐨𝐫𝐲  <|>
+
+   (Easy to Understand) --> The Name of variable is stored in Stack Memory. 
+          Stack memory is used for static memory allocation, where function calls and local variables are stored.
+
+      Example --   X = 10
+
+              X is name of variable. & X is stored in Stack Memory.
+
+
+<|>  𝐇𝐞𝐚𝐩 𝐌𝐞𝐦𝐨𝐫𝐲  <|>
+
+     (Easy to Understand) --> The object of variable is stored in Heap Memory. 
+             Heap memory is used for dynamic memory allocation, where objects and data structures are stored.
+
+        Example --   X = 10
+
+              10 is object of variable. & 10 is stored in Heap Memory.
+
+-----------------<>----------------------------------<>------------------------
+
+     Variable         Object
+  ------------------------------
+        X       =      10 
+        Y       =      20
+    ---------       --------
+      𝐒𝐭𝐚𝐜𝐤           𝐇𝐞𝐚𝐩
+
+----------------------------------------------------------
+
+
+
+
+
