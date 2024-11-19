@@ -1,10 +1,25 @@
+<><><><><><><><><><><>><><><><><><>><><>
+
+  | <>  ᗰOᗪᑌᒪE Oᖴ ᐯᗩᖇIᗩᗷᒪE  <> |
+
+        <> 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬
+        <> 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞 𝐄𝐱𝐩𝐥𝐚𝐧𝐚𝐭𝐢𝐨𝐧
+        <> 𝐍𝐚𝐦𝐢𝐧𝐠 𝐨𝐟 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬
+        <> 𝐌𝐮𝐥𝐭𝐢𝐩𝐥𝐞 𝐯𝐚𝐥𝐮𝐞 𝐭𝐨 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞
+        <> 𝐋𝐨𝐜𝐚𝐥 & 𝐆𝐥𝐨𝐛𝐚𝐥 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬
+        <> 𝐃𝐞𝐥𝐞𝐭𝐢𝐧𝐠 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞
+
+<><><><><><><><><><><>><><><><><><>><><>
+
+--------------------<>-------------------------<>---------------------
 
 <|> 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 -->  It is a container that store value in a Python program.
                   In another word ,, Variables are place holder for storing data.
 
                      Example --> value = 10 
                              ( 'Value' is a variable and hold data '10'.)
-----------------------------------------------------------------------------------
+
+-------------------<>--------------------------<>-----------------------
 
 <|> 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞 𝐄𝐱𝐩𝐥𝐚𝐧𝐚𝐭𝐢𝐨𝐧 <|>
 
@@ -16,7 +31,7 @@
 
        >> 𝑫𝒆𝒄𝒍𝒂𝒓𝒂𝒕𝒊𝒐𝒏 --> Announce a variable usually when begins your program. (When you explain variable).
 
---------------------------------------------------------------------------------------------
+--------------------------<>---------------------------------<>----------------------------
 
 <|> 𝐍𝐚𝐦𝐢𝐧𝐠 𝐨𝐟 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 <|>
        A set of rules for naming a Python variables.
@@ -42,7 +57,74 @@
                :: 1Valid_num = 10 
                :: 2validnum = 20 
                :: 3_Validnum = 30
--------------------------------------------------------------------------------------------------------
+
+------------------------<>---------------------------------------<>-------------------------
+
+<|>  𝐌𝐮𝐥𝐭𝐢𝐩𝐥𝐞 𝐯𝐚𝐥𝐮𝐞 𝐭𝐨 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞  <|>
+         
+        ::> You can assign one value to several variables at the same time.
+      𝙲𝚘𝚍𝚎 >>    a = b = c = 10
+                 print(a + b)            #output = 20
+                 print(a * b)            #output = 100
+                 print(a + b + c)        #output = 30
+
+        ::> You can also assign different values to different variables in the same command.
+      𝙲𝚘𝚍𝚎 >>   a , b , c = 10 , 20 , 30
+                print(a + b)         #output = 30
+                print(a + b + c)     #output = 60
+                print(a * c)         #output = 300
+
+        ::> You can use this method to swap the values of two variables.
+      𝙲𝚘𝚍𝚎 >>   a , b = 10 , 20
+                x , y = b , a
+                print(a , b)        #output = 10 , 20
+                print(x , y)        #output = 20 , 10
+
+
+------------------------<>---------------------------------------<>-------------------------
+
+<|>  𝐋𝐨𝐜𝐚𝐥 & 𝐆𝐥𝐨𝐛𝐚𝐥 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬  <|>
+
+       <::> 𝙇𝙤𝙘𝙖𝙡 𝙑𝙖𝙧𝙞𝙖𝙗𝙡𝙚𝙨 -->>
+                Local variables are defined inside a function or a block of code and can only be accessed from that
+                specific function or block.
+
+            𝙲𝚘𝚍𝚎 >>     def my_fun():
+                               local_var = 10
+                               print(local_var)      #output = 10
+                         my_fun()
+
+       <::> 𝙂𝙡𝙤𝙗𝙖𝙡 𝙑𝙖𝙧𝙞𝙖𝙗𝙡𝙚𝙨 -->>
+                 It is defined outside any function and can be accessed from any part of the program.
+    
+          𝙲𝚘𝚍𝚎 >> 1.    global_var = 20
+                         def out_fun():
+                               print("inside" , global_var)      #output = 20
+                         out_fun()
+                               print("ouside" , global_var)      #output = 20
+
+          𝙲𝚘𝚍𝚎 >> 2.    def f():
+                             print("inside" , s)
+
+                        s = "Hello , Python"
+                        f()
+                           print("outside" , s)    
+
+------------------------<>---------------------------------------<>-------------------------
+
+<|> 𝐃𝐞𝐥𝐞𝐭𝐢𝐧𝐠 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞 -->>
+        Deleting a variable involves removing it from memory, which can do by 'del' statement. 
+             
+           𝙲𝚘𝚍𝚎 >>      x = 10
+                          print(x)   # Output: 10
+                        del x
+                          print(x)   # Raises NameError: name 'x' is not defined
+
+
+------------------------<>---------------------------------------<>-------------------------
+
+
+
 
 
 
