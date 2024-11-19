@@ -84,6 +84,45 @@
                      for exmple --
                  print ("Hello World")   ,,This code is print in python v.3.
 
+
+<|> 𝙄𝙣𝙩𝙚𝙧𝙖𝙘𝙩𝙞𝙫𝙚 𝙖𝙣𝙙 𝙎𝙘𝙧𝙞𝙥𝙩 𝙢𝙤𝙙𝙚 ::--
+
+     <::> 𝙄𝙣𝙩𝙚𝙧𝙖𝙘𝙩𝙞𝙫𝙚 𝙢𝙤𝙙𝙚 -->> 
+           You can directly type python code into the python interpreter, the interpreter executes each line as you enter it,
+           providing the output immediately. It is suitable for writing very short programs.
+          
+             for exmple --
+                <> a = 2
+                   b = 6
+                   c = a ** b
+                   print(c)  #output - 64
+
+                <> print("Good Morning")
+                            #output - Good Morning
+ 
+                <> print(8 + 10)
+                            #output - 18
+      
+         :: Points to view - 
+                    > It gives instant result of code.
+                    > You can easily test & debug lines of code.
+                    > It is not suitable for long programs
+                    > No code resuablity.
+
+     <::> 𝙎𝙘𝙧𝙞𝙥𝙩 𝙢𝙤𝙙𝙚 -->> 
+                 You need to write your python code in a text file and save it with the .py extension. This file called script, 
+                 saved and executed using python interpreter.
+
+           :: Points to view -
+                    > Scripts allow to organise and manage the codes.
+                    > It allow code resuablity.
+                    > It allow to run larger and extensive programs.
+                    > Late result of code because it debug entire codes.
+
+
+
+
+
 -----------------<>-------------------------<>--------------------
 
 
