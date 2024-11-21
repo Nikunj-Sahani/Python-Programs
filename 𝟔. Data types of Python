@@ -1,6 +1,6 @@
 -----------------------------<>-------------------------------<>--------------------------------
 
-<|>  𝐃𝐚𝐭𝐚 T𝐲𝐩𝐞 𝐨𝐟 𝐏𝐲𝐭𝐡𝐨𝐧  <|>
+<|>  𝐃𝐚𝐭𝐚 𝐓𝐲𝐩𝐞 𝐨𝐟 𝐏𝐲𝐭𝐡𝐨𝐧  <|>
           It is the classification of data items in programming.
         >> Variable store the different types of data/value so it is important to known about which data types of value store by variable.
 
@@ -15,11 +15,11 @@
 
 <|>  𝐓𝐲𝐩𝐞𝐬 𝐨𝐟 𝐃𝐚𝐭𝐚 𝐓𝐲𝐩𝐞  <|>    
 
-                                      | <>   𝑷𝒚𝒕𝒉𝒐𝒏 𝑫𝒂𝒕𝒂 𝑻𝒚𝒑𝒆 <> |
+                                         | <> 𝑷𝒚𝒕𝒉𝒐𝒏 𝑫𝒂𝒕𝒂 𝑻𝒚𝒑𝒆 <> |
                                                     |||||  
      |:|                      |:|                    |:|                    |:|                    |:|
      \1/                      \2/                    \3/                    \4/                    \5/
-   𝗡𝘂𝗺𝗲𝗿𝗶𝗰                 𝗗𝗶𝗰𝘁𝗶𝗼𝗻𝗮𝗿𝘆               𝗕𝗼𝗼𝗹𝗲𝗮𝗻                   𝗦𝗲𝘁                𝗦𝗲𝗾𝘂𝗲𝗻𝗰𝗲 𝗧𝘆𝗽𝗲
+   𝗡𝘂𝗺𝗲𝗿𝗶𝗰                 𝗗𝗶𝗰𝘁𝗶𝗼𝗻𝗮𝗿𝘆                𝗕𝗼𝗼𝗹𝗲𝗮𝗻                  𝗦𝗲𝘁                𝗦𝗲𝗾𝘂𝗲𝗻𝗰𝗲 𝗧𝘆𝗽𝗲
    \/                                                                                           \/
     \>> 1. Integer                                                                                \>> 1. String
         2. float                                                                                      2. List
@@ -27,8 +27,8 @@
 
 ----------------------------<>-----------------------------------<>-----------------------------
 
-|< 1 >| -->> 𝗡𝘂𝗺𝗲𝗿𝗶𝗰 = It only store the number value.
-
+|< 𝟏 >| -->> 𝗡𝘂𝗺𝗲𝗿𝗶𝗰 = It only store the number value.
+"""""""""""""""""""""
       1. 𝑰𝒏𝒕𝒆𝒈𝒆𝒓 -->> It can be of any length , whole numbers from negative to positive , limited by the memory available.
         
                 for Example --  a = 10                               x = -82
@@ -64,7 +64,103 @@
                                        print(x)          #output = 10 + 5j
                                        print(type(x))    #output = <class 'complex'>      (Data type of value is Complex).
 
-|< 2 >| -->>  𝗗𝗶𝗰𝘁𝗶𝗼𝗻𝗮𝗿𝘆 = 
+|< 𝟐 >| -->>  𝗗𝗶𝗰𝘁𝗶𝗼𝗻𝗮𝗿𝘆 = It is an unordered collection of data values, used to store data values like a map in key-values pair.
+""""""""""""""""""""""""
+       :: 𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝙴𝚖𝚙𝚝𝚢 𝙳𝚒𝚌𝚝𝚒𝚘𝚗𝚊𝚛𝚢 -->>
+                        d = {}
+                        print(d)        #output - {}
+                        print(type(d))  #output - <class 'dict'>
+
+       :: 𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝙳𝚒𝚌𝚝𝚒𝚘𝚗𝚊𝚛𝚢 𝚠𝚒𝚝𝚑 𝙸𝚗𝚝𝚎𝚐𝚎𝚛 𝙺𝚎𝚢𝚜 -->>
+                        d = {1:'value1' , 2:'value2' , 3:'value3'} 
+                        print(d)      
+                        print(type(d))  #output - <class 'dict'>
+
+       :: 𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝙳𝚒𝚌𝚝𝚒𝚘𝚗𝚊𝚛𝚢 𝚠𝚒𝚝𝚑 𝙼𝚒𝚡𝚎𝚍 𝙺𝚎𝚢𝚜 -->>
+                        d = {'Age':23 , 'Name':'Nikunj' , 'Streak';100 , 2;[1,2,3]}
+                        print(d)      
+                        print(type(d))  #output - <class 'dict'>
+
+              <::> 𝘾𝙝𝙚𝙘𝙠 𝘿𝙖𝙩𝙖 𝙏𝙮𝙥𝙚 -->> using type() function.
+                      code - x = {1:2 , 2:4 , 4:8}
+                             print(x)          #output = {1:2 , 2:4 , 4:8}
+                             print(type(x))    #output = <class 'dict'>      (Data type of value is Dictionary).
+
+|< 𝟑 >| -->> 𝗕𝗼𝗼𝗹𝗲𝗮𝗻 = It is a data type with two in-built values. Perform only 'True' or 'False'.
+"""""""""""""""""""""                        
+             :: Objects of boolean may have execute only one in two values.
+             :: bool() converts an argument to a boolean values.
+             :: Invalid boolean -- true , false , TRUE , FALSE.
+
+         code  -    x = 10
+                    y = 20
+                    result = x < y  
+                    print(result)  # Output: True
+
+         <::> 𝘾𝙝𝙚𝙘𝙠 𝘿𝙖𝙩𝙖 𝙏𝙮𝙥𝙚 -->> using type() function.
+                   code - x = 10
+                          y = 20
+                          result = x < y         #output = True
+                          print(type(result))    #output = <class 'bool'>      (Data type of value is Boolean).
+
+|< 𝟒 >| --> 𝗦𝗲𝘁 = It contain unordered collection of elements which are iterable , but it cannot accept duplicate elements.
+""""""""""""""""
+           :: 𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝙴𝚖𝚙𝚝𝚢 𝚂𝚎𝚝 -->>
+                       x = set()
+                       print(x)
+
+           :: 𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝙲𝚞𝚛𝚕𝚢 𝚋𝚛𝚊𝚌𝚔𝚎𝚝 𝚂𝚎𝚝 -->>
+                   >>  x = {1,2,3,4,5}
+                       print(x)     #output = 1,2,3,4,5
+
+                :: Removing duplicate elements
+                   >>  x = {1,2,3,2,4,3}
+                       print(x)     #output = 1,2,3,4
+
+           :: 𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚘𝚛𝚍𝚎𝚛 𝚂𝚎𝚝 -->>
+                    Simple >>  x = {[1,2,3,4,5}}
+                             print(x)      #output = 1,2,3,4,5
+
+                 Set Order >>  x = {[1,4,2,6,3,7,8]}
+                             print(x)      #output = 1,2,3,4,6,7,8
+
+           :: 𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚜𝚎𝚝 𝚘𝚏 𝚌𝚑𝚊𝚛𝚊𝚌𝚝𝚎𝚛𝚜 𝚏𝚛𝚘𝚖 𝚂𝚝𝚛𝚒𝚗𝚐 -->>
+                    >>  x = set("hello")
+                        print(x)         # Output = {'e', 'h', 'l', 'o'}
+
+                    >>  x = set("Programming")
+                        print(x)   # Output = {'a', 'r', 'g', 'P', 'n', 'o', 'm', 'i'}
+
+           :: 𝙲𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝙸𝚗𝚝𝚎𝚛𝚜𝚎𝚌𝚝𝚒𝚘𝚗 -->>
+                    a = {1,2,3,4}
+                    b = {4,5,6,7}
+                    print(a & b)              # Output: {4}
+                    print(a.intersection(b))  # Output: {4}
+
+         <::> 𝘾𝙝𝙚𝙘𝙠 𝘿𝙖𝙩𝙖 𝙏𝙮𝙥𝙚 -->> using type() function.
+                   code = x = {1,2,3,4,5}
+                          print(x)     
+                          print(type(x))    #output = <class 'set'>      (Data type of value is Set).
+ 
+|< 𝟓 >| -->> 𝗦𝗲𝗾𝘂𝗲𝗻𝗰𝗲 𝗧𝘆𝗽𝗲 = 
+"""""""""""""""""""""""""""
+
+       𝟏. 𝑺𝒕𝒓𝒊𝒏𝒈 -->> It is referred as sequence of character defined inside single , double or triple quotes.
+                      
+
+
+
+
+
+
+     𝟐.𝑳𝒊𝒔𝒕
+𝟑.𝑻𝒖𝒑𝒍𝒆
+
+
+
+
+
+
 
 
 
