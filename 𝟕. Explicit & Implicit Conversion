@@ -1,9 +1,74 @@
 
- | <>  𝐄𝐱𝐩𝐥𝐢𝐜𝐢𝐭 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧  <>|
+<><>  𝐃𝐚𝐭𝐚 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧  <><>
+         In Python, type conversion refers to converting one data type to another. 
+         There are two types of type conversion:
+
+------------------------<>----------------------<>-----------------------
+
+ | 1 | <> 𝐄𝐱𝐩𝐥𝐢𝐜𝐢𝐭 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧  <>|
+             It involves manually converting one data type into another using in-built functions. it is also known as typecasting.
+
+    𝙲𝚘𝚖𝚖𝚘𝚗 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜 𝚏𝚘𝚛 𝚃𝚢𝚙𝚎 𝙲𝚘𝚗𝚟𝚎𝚛𝚜𝚒𝚘𝚗 :<>:
+
+               :: int(): Converts to an integer.
+               :: float(): Converts to a float.
+               :: str(): Converts to a string.
+               :: list(): Converts to a list.
+               :: tuple(): Converts to a tuple.
+               :: set(): Converts to a set.
+               :: dict(): Converts to a dictionary (requires a compatible input format).
+
+     𝙿𝚢𝚝𝚑𝚘𝚗 𝙲𝚘𝚍𝚎𝚜 ::>> 
+             :1: Integer to float
+                   num = 10
+                   float_num = float(num)
+                   print(float_num)      #Output = 10.0
+
+             :2: Float to integer
+                   decimal = 12.34
+                   int_num = int(decimal)
+                   print(int_num)         #Output = 12 (truncates the decimal part)
+
+             :3: String to integer
+                   string_num = "123"
+                   int_string = int(string_num)
+                   print(int_string)        #Output = 123
+
+             :4: List to tuple
+                   list_data = [1, 2, 3]
+                   tuple_data = tuple(list_data)
+                   print(tuple_data)       #Output = (1, 2, 3)
+
+             :5: Tuple to list
+                  data = (1,2,3)
+                  list_data = tuple(data)
+                  print(list(list_data))    #Output = [1, 2, 3]
+
+-------------------------<>----------------------<>-----------------------
+
+ | 2 | <> 𝐈𝐦𝐩𝐥𝐢𝐜𝐢𝐭 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧  <>|
+            It happens automatically during operations where Python converts one data type to another without the programmer's intervention.
+            It also known as type coercion.
+
+        𝙿𝚢𝚝𝚑𝚘𝚗 𝙲𝚘𝚍𝚎𝚜 ::>>
+            :1: Integer and float addition
+                    num_int = 10
+                    num_float = 2.5
+                    result = num_int + num_float  # Implicitly converts `num_int` to a float
+                    print(result)  # Output: 12.5
+                    print(type(result))     #Output = <class 'float'>
+
+           :2: Boolean to integer
+                    is_true = True
+                    result = is_true + 5  # True is treated as 1
+                    print(result)  #Output = 6
+
+        
+-------------------------------------<>-----------------------------------<>------------------------------------------
 
 
 
 
 
 
- | <> 𝐈𝐦𝐩𝐥𝐢𝐜𝐢𝐭 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧  <>|
+
