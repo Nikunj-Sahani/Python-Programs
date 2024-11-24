@@ -84,6 +84,13 @@
                         print(d)      
                         print(type(d))  #output - <class 'dict'>
 
+       :: 𝑷𝒓𝒊𝒏𝒕𝒊𝒏𝒈 𝑲𝒆𝒚𝒔 & 𝒗𝒂𝒍𝒖𝒆𝒔 -->>
+                        x = {1:2 , 2:4 , 4:6 , 6:8}
+                        print(x)
+                        print(type(x))         #output = <class 'dict'>
+                        print(x.keys())        #output = 1 , 2 , 4 , 6
+                        print(x.values())      #output = 2 , 4 , 6 , 8
+
               <::> 𝘾𝙝𝙚𝙘𝙠 𝘿𝙖𝙩𝙖 𝙏𝙮𝙥𝙚 -->> using type() function.
                       code - x = {1:2 , 2:4 , 4:8}
                              print(x)          #output = {1:2 , 2:4 , 4:8}
