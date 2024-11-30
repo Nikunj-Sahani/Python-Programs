@@ -60,7 +60,7 @@
 
            :2: Boolean to integer
                     is_true = True
-                    result = is_true + 5  # True is treated as 1
+                    result = is_true + 5    #True is treated as 1 = (1 +5)
                     print(result)  #Output = 6
 
         
