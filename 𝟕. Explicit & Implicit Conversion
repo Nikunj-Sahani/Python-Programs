@@ -58,7 +58,7 @@
                     print(result)  # Output: 12.5
                     print(type(result))     #Output = <class 'float'>
 
-           :2: Boolean to integer
+            :2: Boolean to integer
                     is_true = True
                     result = is_true + 5    #True is treated as 1 = (1 +5)
                     print(result)  #Output = 6
