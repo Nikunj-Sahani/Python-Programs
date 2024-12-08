@@ -1,0 +1,30 @@
+------------------><----------------><------------------
+
+|< 𝟔 >| 𝐈𝐝𝐞𝐧𝐭𝐢𝐭𝐲 𝐨𝐩𝐞𝐫𝐚𝐭𝐨𝐫 <|>
+          >> Identity operators are used to compare the memory locations of two objects to determine,
+          >> if they are the same object (i.e., if they have the same identity). 
+
+   _______________________________________________________________________________________________________
+   | 𝐎𝐩𝐞𝐫𝐚𝐭𝐨𝐫 |><|                     𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧                             |><|  𝐄𝐱𝐚𝐦𝐩𝐥𝐞  |  𝐎𝐮𝐭𝐩𝐮𝐭   |
+   |"""""""""""|""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""|"""""""""""""|"""""""""""|
+   |    is     | Returns True if both variables refer to the same object.       |   a is b    |   True    |
+   |-----------|----------------------------------------------------------------|-------------|-----------|
+   |  is not   | Returns True if both variables do not refer to the same object.|  a is not b |   False   | 
+   """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+|><| 𝙁𝙤𝙧 𝙢𝙪𝙩𝙖𝙗𝙡𝙚 𝙤𝙗𝙟𝙚𝙘𝙩𝙨 (like lists), two objects with identical content can have different memory addresses.
+
+  Python code -->>
+               x = [1, 2]
+               y = [1, 2]
+               print(x is y)  # False - Different objects
+
+|><| 𝙁𝙤𝙧 𝙞𝙢𝙢𝙪𝙩𝙖𝙗𝙡𝙚 𝙤𝙗𝙟𝙚𝙘𝙩𝙨 (e.g., integers, strings, tuples), Python may reuse memory locations for objects with the same value,
+      resulting in is returning True:
+
+   Python code -->>
+                 x = 10
+                 y = 10
+                 print(x is y)  # True - Same memory location.
+
+---------------------><-------------------><----------------------
