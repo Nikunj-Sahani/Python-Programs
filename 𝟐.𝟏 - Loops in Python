@@ -1,7 +1,8 @@
-----------------><----------------><------------------
+-------------------><----------------><------------------
 
 |<>| 𝐋𝐨𝐨𝐩𝐬 𝐢𝐧 𝐏𝐲𝐭𝐡𝐨𝐧 |<>|
       >> Loops in Python are constructs that allow you to execute a block of code multiple times.
+
       >>  Python provides two main types of loops:
           :1: For Loop >> Used to iterate over a sequence (like a list, tuple, string, or range).
 
