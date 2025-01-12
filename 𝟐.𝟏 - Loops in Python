@@ -5,9 +5,7 @@
 
       >>  Python provides two main types of loops:
           :1: For Loop >> Used to iterate over a sequence (like a list, tuple, string, or range).
-
           :2: While Loop >> Repeats as long as a condition is true.
 
-
-
 ----------------><----------------><------------------
+
