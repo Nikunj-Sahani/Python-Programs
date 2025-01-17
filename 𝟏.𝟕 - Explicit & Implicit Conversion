@@ -1,8 +1,8 @@
 ------------------------<>----------------------<>-----------------------
 
 <><>  𝐃𝐚𝐭𝐚 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧  <><>
-         In Python, type conversion refers to converting one data type to another. 
-         There are two types of type conversion:
+       >> In Python, type conversion refers to converting one data type to another. 
+       >> There are two types of type conversion:
 
 ------------------------<>----------------------<>-----------------------
 
@@ -48,8 +48,8 @@
 -------------------------<>----------------------<>-----------------------
 
  | 2 |<>  𝐈𝐦𝐩𝐥𝐢𝐜𝐢𝐭 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧  <>|
-            It happens automatically during operations where Python converts one data type to another without the programmer's intervention.
-            It also known as type coercion.
+           >> It happens automatically during operations where Python converts one data type to another without the programmer's intervention.
+           >> It also known as type coercion.
 
         𝙿𝚢𝚝𝚑𝚘𝚗 𝙲𝚘𝚍𝚎𝚜 ::>>
             :1: Integer and float addition
