@@ -1,3 +1,37 @@
-----------------><------------------><-------------------
+------------------><--------------------><--------------------
 
-|<>|     |<>|
+|><| 𝐁𝐫𝐞𝐚𝐤 & 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐞 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 |><|
+       <><><>><><><><><><><>
+
+ 𝟏. 𝐁𝐫𝐞𝐚𝐤 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 :::---
+     >> The break statement is used to terminate the loop immediately.
+
+   For Example ;;;
+     for i in range(10):
+     if i == 5:
+        break
+        print(i)  # Stops when i is 5
+
+ 𝟐. 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐞 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭  :::---
+     >> The continue statement is used to skip the current iteration of the loop it continue with next.
+
+   For Example ;;;
+     for i in range(5):
+     if i == 2:
+        continue
+        print(i)  # Skips 2
+
+-------------------><----------------------><---------------------
+
+|><| 𝐞𝐥𝐬𝐞 𝐰𝐢𝐭𝐡 𝐋𝐨𝐨𝐩𝐬 |><|
+      >> Executes if the loop completes normally.
+
+   For Example ;;;
+    for i in range(5):
+      print(i)
+    else:
+      print("Loop completed!")
+
+------------------><--------------------><-----------------------
+
+
