@@ -1,37 +1,135 @@
+------------------><---------------------><--------------------
+                 <><><><>><><><><><><><><><>
+
+|><| 𝐢𝐟 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 |><|
+      >> The if statement is used to test a particular condition.
+      >> It allows you to execute a block of code only if a specified condition is True.
+      >> It is known as if-block.
+
+  𝚂𝚢𝚗𝚝𝚊𝚡 ::--
+
+   if condition:
+     # code block to execute if the condition is True
+
+  𝙴𝚡𝚊𝚖𝚙𝚕𝚎  ::--
+
+    x = 10
+    if x > 0:
+       print("True")
+
 ------------------><--------------------><--------------------
 
-|><| 𝐁𝐫𝐞𝐚𝐤 & 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐞 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 |><|
-       <><><>><><><><><><><>
+|><| 𝐢𝐟-𝐞𝐥𝐬𝐞 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 |><|
+      >> This statement provide an else block combined with the if statement.
+      >> To execute one block of code if the condition is True and another if it is False.
 
- 𝟏. 𝐁𝐫𝐞𝐚𝐤 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 :::---
-     >> The break statement is used to terminate the loop immediately.
+  𝚂𝚢𝚗𝚝𝚊𝚡 ::--
 
-   For Example ;;;
-     for i in range(10):
-     if i == 5:
-        break
-        print(i)  # Stops when i is 5
-
- 𝟐. 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐞 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭  :::---
-     >> The continue statement is used to skip the current iteration of the loop it continue with next.
-
-   For Example ;;;
-     for i in range(5):
-     if i == 2:
-        continue
-        print(i)  # Skips 2
-
--------------------><----------------------><---------------------
-
-|><| 𝐞𝐥𝐬𝐞 𝐰𝐢𝐭𝐡 𝐋𝐨𝐨𝐩𝐬 |><|
-      >> Executes if the loop completes normally.
-
-   For Example ;;;
-    for i in range(5):
-      print(i)
+    if condition:
+      # code block if condition is True
     else:
-      print("Loop completed!")
+      # code block if condition is False
 
-------------------><--------------------><-----------------------
+  𝙴𝚡𝚊𝚖𝚙𝚕𝚎  ::--
+
+ >  x = 10
+    if x > 5:
+       print("True")
+    else:
+       print("False")
+
+ >  x = 10
+    if x < 5:
+       print("True")
+    else:
+       print("False")
+
+------------------><--------------------><--------------------
+
+|><| 𝐢𝐟-𝐞𝐥𝐢𝐟-𝐞𝐥𝐬𝐞 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 |><|
+      >> This statement use to check multiple conditions in sequence.
+      >> It execute the specific block of statement depending upon the true condition among them.
+
+ 𝚂𝚢𝚗𝚝𝚊𝚡 ::--
+
+    if condition1:
+       # code block if condition1 is True
+    elif condition2:
+       # code block if condition2 is True
+    else:
+       # code block if none of the conditions are True
+
+  𝙴𝚡𝚊𝚖𝚙𝚕𝚎  ::--
+
+  > x = 15
+    if x < 10:
+       print("x is less than 10")
+    elif x < 20:
+       print("x is between 10 and 20")   #it's output.
+    else:
+       print("x is 20 or more")
+
+  > x = 15
+    if x < 10:
+       print("x is less than 10")
+    elif x < 2:
+       print("x is between 10 and 20")
+    else:
+       print("x is 20 or more")  #it's output
+
+                 <><><><>><><><><><><><><><>
+------------------><---------------------><--------------------
+                 <><><><>><><><><><><><><><>
+
+|><| 𝐧𝐞𝐬𝐭𝐞𝐝-𝐢𝐟 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 |><|
+      >> This statement in Python refers to placing one if statement inside another. 
+      >> It allows you to test multiple conditions, where the inner condition is checked only if the outer condition is True.
+
+  𝚂𝚢𝚗𝚝𝚊𝚡 ::--
+
+    if condition1:
+      # Outer if block
+      if condition2:
+        # Inner if block
+        # Code to execute if both conditions are True
+
+  𝙴𝚡𝚊𝚖𝚙𝚕𝚎  ::--
+
+   >  x = 10
+      y = 5
+      if x > 0:  # Outer condition
+         if y > 0:  # Inner condition
+            print("Both x and y are positive")
+
+------------------><---------------------><--------------------
+
+|><| 𝐧𝐞𝐬𝐭𝐞𝐝-𝐢𝐟-𝐞𝐥𝐬𝐞 𝐒𝐭𝐚𝐭𝐞𝐦𝐞𝐧𝐭 |><|
+      >> This statement in Python refers to having an if-else block inside another if or else block. 
+      >> This structure is used when you need to check multiple conditions.
+
+  𝚂𝚢𝚗𝚝𝚊𝚡 ::--
+
+     if condition1:
+        if condition2:
+           # Code block if condition1 and condition2 are True
+        else:
+           # Code block if condition1 is True but condition2 is False
+     else:
+        # Code block if condition1 is False
+
+  𝙴𝚡𝚊𝚖𝚙𝚕𝚎  ::--
+
+    x = 10
+    y = 5
+    if x < 0:  # Outer condition
+       if y > 0:  # Inner condition
+          print("x and y are both positive")
+       else:
+          print("x is positive, but y is not positive")
+    else:
+       print("x is not positive")
+
+                 <><><><>><><><><><><><><><>
+------------------><---------------------><--------------------
 
 
